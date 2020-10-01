@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script> 
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDYe-DMiP6WPbLdZ8k3dTQ70bG0Qwg3bsc",
+        authDomain: "spacerunner-c7f2c.firebaseapp.com",
+        databaseURL: "https://spacerunner-c7f2c.firebaseio.com",
+        projectId: "spacerunner-c7f2c",
+        storageBucket: "spacerunner-c7f2c.appspot.com",
+        messagingSenderId: "267298906264",
+        appId: "1:267298906264:web:31a7d4c1726da814f270ed"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+  <script src="Game.js"></script>
+  <script src="Form.js"></script>
+  <script src="Player.js"></script>
+  
+  <script src="sketch.js"></script>
+</body>
+</html>
